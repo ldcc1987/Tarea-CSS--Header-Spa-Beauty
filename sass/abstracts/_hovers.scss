@@ -1,0 +1,38 @@
+
+nav ul li:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+header img:hover{
+  width: 110%;
+}
+.login a img:hover{
+  text-decoration: underline;
+  width: 50%;
+}
+.login button a:hover{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.login a:hover{
+  font-weight: bold;
+  font-size: 18px;
+}
+.links{
+  button:hover{
+  width: 25%;
+  background-color: white;
+  color:$blue;
+  a{
+    font-weight: bold;
+  }
+}
+}
+main .hero .main__hero .links a:hover{
+  text-decoration: underline $blue solid;
+}
+main .hero .main__hero .links div:hover{
+  border: 3px solid $blue;
+}
+
