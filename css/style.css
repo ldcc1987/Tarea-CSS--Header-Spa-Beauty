@@ -50,7 +50,8 @@ header {
       border: 0;
       color: #264065;
       margin-left: 0px;
-      background-color: white; }
+      background-color: white;
+      font-size: 16px; }
     header ul li a {
       text-decoration: none;
       color: #264065; }
@@ -76,6 +77,10 @@ header {
       text-decoration: none;
       color: white;
       font-size: 16px; }
+
+header ul select:hover {
+  text-decoration: underline;
+  font-weight: bold; }
 
 main {
   display: flex;
