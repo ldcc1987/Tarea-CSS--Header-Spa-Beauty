@@ -97,8 +97,8 @@ main{
     background-color: $green;
     left: 350px;
     top:-150px;
-    width: 1000px;
-    height:850px;
+    width: 1200px;
+    height:715px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -107,43 +107,61 @@ main{
       position: absolute;
       opacity: 5%;
       color:black;
-      top:15%;
-      left: -130px;
+      top:9%;
+      left: -85px;
     }
     .first__coment{
-      width: 400px;
+      width: 350px;
       position: absolute;
       background-color: white;
       opacity: 70%;
-      right: 80px;
-      top:40%;
+      left: 155px;
+      top: 55%;
       padding: 15px;
-      border-radius: 5%;
+      border-radius: 20px;
       z-index: 1;
+      img{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
       h3{
         color:$blue;
+        margin-top: 0;
+        margin-bottom: 0;
       }
       p{
         font-size: 16px;
         color:black;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 500;
       }
     }
     .second__comment{
-      width: 400px;
+      width: 350px;
       background-color: white;
       opacity: 70%;
-      border-radius: 5%;
-      right: 200px;
+      border-radius: 20px;
+      left: 10px;
       padding: 15px;
       position:absolute;
-      top:680px;
+      top:650px;
       z-index: 1;
+      img{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
       h3{
         color:$blue;
+        margin-top: 0;
+        margin-bottom: 0;
       }
       p{
         font-size: 16px;
         color:black;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 500;
       }
     }
   }
@@ -151,7 +169,7 @@ main{
 .modelo{
   position:absolute;
   width: 680px;
-  right:450px;
+  right:330px;
   bottom:20px;
   z-index: 0;
 }

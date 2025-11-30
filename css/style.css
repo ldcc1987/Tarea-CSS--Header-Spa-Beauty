@@ -1,35 +1,44 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 nav ul li:hover {
   text-decoration: underline;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 header img:hover {
-  width: 110%; }
+  width: 110%;
+}
 
 .login a img:hover {
   text-decoration: underline;
-  width: 50%; }
+  width: 50%;
+}
 
 .login button a:hover {
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .login a:hover {
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .links button:hover {
   width: 25%;
   background-color: white;
-  color: #264065; }
-  .links button:hover a {
-    font-weight: bold; }
+  color: #264065;
+}
+.links button:hover a {
+  font-weight: bold;
+}
 
 main .hero .main__hero .links a:hover {
-  text-decoration: underline #264065 solid; }
+  text-decoration: underline #264065 solid;
+}
 
 main .hero .main__hero .links div:hover {
-  border: 3px solid #264065; }
+  border: 3px solid #264065;
+}
 
 header {
   display: flex;
@@ -37,24 +46,28 @@ header {
   margin-right: 200px;
   margin-top: 30px;
   align-items: center;
-  background-color: transparent; }
-  header ul {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    list-style: none;
-    color: #264065;
-    margin-left: 140px;
-    z-index: 5; }
-    header ul select {
-      border: 0;
-      color: #264065;
-      margin-left: 0px;
-      background-color: white;
-      font-size: 16px; }
-    header ul li a {
-      text-decoration: none;
-      color: #264065; }
+  background-color: transparent;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  list-style: none;
+  color: #264065;
+  margin-left: 140px;
+  z-index: 5;
+}
+header ul select {
+  border: 0;
+  color: #264065;
+  margin-left: 0px;
+  background-color: white;
+  font-size: 16px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #264065;
+}
 
 .login {
   position: absolute;
@@ -64,167 +77,218 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  z-index: 2; }
-  .login img:last-of-type {
-    margin-right: 50px; }
-  .login a {
-    color: #264065; }
-  .login button {
-    border-radius: 50px;
-    padding: 10px 30px;
-    background-color: #264065; }
-    .login button a {
-      text-decoration: none;
-      color: white;
-      font-size: 16px; }
+  z-index: 2;
+}
+.login img:last-of-type {
+  margin-right: 50px;
+}
+.login a {
+  color: #264065;
+}
+.login button {
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: #264065;
+}
+.login button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
 
 header ul select:hover {
   text-decoration: underline;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 main {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
-  background-color: transparent; }
-  main .hero {
-    min-width: 50%;
-    display: flex;
-    flex-direction: column; }
-    main .hero .main__hero h1 {
-      color: #264065;
-      font-size: 50px;
-      max-width: 70%;
-      margin-left: 10%; }
-    main .hero .main__hero p {
-      color: #909090;
-      margin-left: 10%;
-      font-size: 20px;
-      max-width: 75%; }
-    main .hero .main__hero .links {
-      display: flex;
-      margin-left: 10%;
-      font-size: 20px;
-      gap: 5%;
-      align-items: center;
-      height: 10%;
-      margin-top: 50px;
-      margin-bottom: 50px; }
-      main .hero .main__hero .links button {
-        border-radius: 50px;
-        padding: 1.5% 5%;
-        background-color: #264065; }
-        main .hero .main__hero .links button a {
-          text-decoration: none;
-          color: white;
-          font-size: 16px; }
-      main .hero .main__hero .links .circle {
-        background-color: whitesmoke;
-        border-radius: 100%;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px; }
-      main .hero .main__hero .links a {
-        color: #264065;
-        text-decoration: white;
-        margin-left: -10px; }
-    main .hero section {
-      display: flex;
-      justify-content: center;
-      width: 200px;
-      margin-left: 270px;
-      align-items: center;
-      gap: 50%; }
-      main .hero section .first {
-        width: 40%;
-        height: 80%;
-        align-items: center; }
-        main .hero section .first .logo {
-          background-color: #A9D6CB;
-          border-radius: 100%;
-          width: 70px;
-          height: 40%;
-          align-items: center;
-          justify-content: center;
-          display: flex; }
-        main .hero section .first h3 {
-          margin-top: 10px;
-          color: #264065;
-          font-size: 40px;
-          font-weight: 500; }
-        main .hero section .first p {
-          margin-top: 20px;
-          font-size: 18px;
-          color: #909090;
-          height: 50px;
-          width: 126px;
-          text-align: center;
-          margin-left: -20px; }
-  main .coments {
-    background-color: #A9D6CB;
-    left: 350px;
-    top: -150px;
-    width: 1000px;
-    height: 850px;
-    display: flex;
-    flex-direction: column;
-    position: relative; }
-    main .coments .lotus {
-      width: 450px;
-      position: absolute;
-      opacity: 5%;
-      color: black;
-      top: 15%;
-      left: -130px; }
-    main .coments .first__coment {
-      width: 400px;
-      position: absolute;
-      background-color: white;
-      opacity: 70%;
-      right: 80px;
-      top: 40%;
-      padding: 15px;
-      border-radius: 5%;
-      z-index: 1; }
-      main .coments .first__coment h3 {
-        color: #264065; }
-      main .coments .first__coment p {
-        font-size: 16px;
-        color: black; }
-    main .coments .second__comment {
-      width: 400px;
-      background-color: white;
-      opacity: 70%;
-      border-radius: 5%;
-      right: 200px;
-      padding: 15px;
-      position: absolute;
-      top: 680px;
-      z-index: 1; }
-      main .coments .second__comment h3 {
-        color: #264065; }
-      main .coments .second__comment p {
-        font-size: 16px;
-        color: black; }
+  background-color: transparent;
+}
+main .hero {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+main .hero .main__hero h1 {
+  color: #264065;
+  font-size: 50px;
+  max-width: 70%;
+  margin-left: 10%;
+}
+main .hero .main__hero p {
+  color: #909090;
+  margin-left: 10%;
+  font-size: 20px;
+  max-width: 75%;
+}
+main .hero .main__hero .links {
+  display: flex;
+  margin-left: 10%;
+  font-size: 20px;
+  gap: 5%;
+  align-items: center;
+  height: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .hero .main__hero .links button {
+  border-radius: 50px;
+  padding: 1.5% 5%;
+  background-color: #264065;
+}
+main .hero .main__hero .links button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+main .hero .main__hero .links .circle {
+  background-color: whitesmoke;
+  border-radius: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+main .hero .main__hero .links a {
+  color: #264065;
+  text-decoration: white;
+  margin-left: -10px;
+}
+main .hero section {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-left: 270px;
+  align-items: center;
+  gap: 50%;
+}
+main .hero section .first {
+  width: 40%;
+  height: 80%;
+  align-items: center;
+}
+main .hero section .first .logo {
+  background-color: #A9D6CB;
+  border-radius: 100%;
+  width: 70px;
+  height: 40%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+main .hero section .first h3 {
+  margin-top: 10px;
+  color: #264065;
+  font-size: 40px;
+  font-weight: 500;
+}
+main .hero section .first p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #909090;
+  height: 50px;
+  width: 126px;
+  text-align: center;
+  margin-left: -20px;
+}
+main .coments {
+  background-color: #A9D6CB;
+  left: 350px;
+  top: -150px;
+  width: 1200px;
+  height: 715px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main .coments .lotus {
+  width: 450px;
+  position: absolute;
+  opacity: 5%;
+  color: black;
+  top: 9%;
+  left: -85px;
+}
+main .coments .first__coment {
+  width: 350px;
+  position: absolute;
+  background-color: white;
+  opacity: 70%;
+  left: 155px;
+  top: 55%;
+  padding: 15px;
+  border-radius: 20px;
+  z-index: 1;
+}
+main .coments .first__coment img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main .coments .first__coment h3 {
+  color: #264065;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main .coments .first__coment p {
+  font-size: 16px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+main .coments .second__comment {
+  width: 350px;
+  background-color: white;
+  opacity: 70%;
+  border-radius: 20px;
+  left: 10px;
+  padding: 15px;
+  position: absolute;
+  top: 650px;
+  z-index: 1;
+}
+main .coments .second__comment img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main .coments .second__comment h3 {
+  color: #264065;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main .coments .second__comment p {
+  font-size: 16px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
 
 .modelo {
   position: absolute;
   width: 680px;
-  right: 450px;
+  right: 330px;
   bottom: 20px;
-  z-index: 0; }
+  z-index: 0;
+}
 
 body {
-  max-width: 1500px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 html * {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+}
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 /*# sourceMappingURL=style.css.map */
