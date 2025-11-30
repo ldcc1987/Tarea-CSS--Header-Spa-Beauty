@@ -8,7 +8,7 @@ header{
   ul{
     display: flex;
     justify-content: center;
-    gap:80px;
+    gap:90px;
     list-style: none;
     color:$blue;
     margin-left: 140px;
@@ -23,7 +23,7 @@ header{
       li a{
       text-decoration: none;
       color: $blue;
-     
+
       }
     }
   }
@@ -58,4 +58,18 @@ header{
 header ul select:hover{
   text-decoration: underline;
   font-weight: bold;
+}
+.lupa{
+
+  padding:0;
+}
+.bolsa{
+  margin-left: -70px;
+}
+.bolsa:hover{
+  text-decoration: underline;
+}
+
+.logo_1{
+  margin-left: 50px;
 }
