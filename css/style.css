@@ -197,19 +197,19 @@ main .hero section .first .logo {
   display: flex;
 }
 main .hero section .first h3 {
-  margin-top: 10px;
+  margin-top: 25px;
   color: #264065;
   font-size: 40px;
   font-weight: 500;
 }
 main .hero section .first p {
-  margin-top: 20px;
+  margin-top: -20px;
   font-size: 18px;
   color: #909090;
   height: 50px;
   width: 150px;
   text-align: center;
-  margin-left: -45px;
+  margin-left: -39px;
 }
 main .coments {
   background-color: #A9D6CB;
