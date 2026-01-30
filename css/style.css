@@ -130,14 +130,14 @@ main .hero {
 }
 main .hero .main__hero h1 {
   color: #264065;
-  font-size: 50px;
+  font-size: 60px;
   max-width: 70%;
   margin-left: 10%;
 }
 main .hero .main__hero p {
   color: #909090;
   margin-left: 10%;
-  font-size: 20px;
+  font-size: 24px;
   max-width: 75%;
 }
 main .hero .main__hero .links {
