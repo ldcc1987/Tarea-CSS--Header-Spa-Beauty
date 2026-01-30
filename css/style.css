@@ -71,7 +71,7 @@ header ul li a {
 
 .login {
   position: absolute;
-  right: 150px;
+  right: 8%;
   top: 30px;
   display: flex;
   justify-content: space-between;
